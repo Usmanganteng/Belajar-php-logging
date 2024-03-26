@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC;
 
 use Monolog\Logger;
 
@@ -8,7 +8,7 @@ class LoggerTest extends \PHPUnit\Framework\TestCase
 {
     public function testLogger()
     {
-        $logger = new Logger("ProgrammerZamanNow");
+        $logger = new Logger("MuhamadAldizarIlham");
 
         self::assertNotNull($logger);
     }

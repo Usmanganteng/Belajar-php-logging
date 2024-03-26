@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC;
 
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Handler\StreamHandler;

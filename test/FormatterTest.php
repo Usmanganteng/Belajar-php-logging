@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC;
 
 use Monolog\Formatter\JsonFormatter;
 use Monolog\Handler\StreamHandler;
@@ -24,8 +24,8 @@ class FormatterTest extends TestCase
         $logger->pushProcessor(new MemoryUsageProcessor());
         $logger->pushProcessor(new HostnameProcessor());
 
-        $logger->info("Belajar PHP Logging", ["username" => "khannedy"]);
-        $logger->info("Belajar PHP Logging Lagi", ["username" => "khannedy"]);
+        $logger->info("Belajar PHP Logging", ["username" => "Aldizar"]);
+        $logger->info("Belajar PHP Logging Lagi", ["username" => "Aldizar"]);
 
         self::assertNotNull($logger);
 

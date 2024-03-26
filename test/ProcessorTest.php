@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC;
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
@@ -21,12 +21,12 @@ class ProcessorTest extends TestCase
         $logger->pushProcessor(function ($record){
             $record["extra"]["pzn"] = [
                 "app" => "Belajar PHP Logging",
-                "author" => "Programmer Zaman Now"
+                "author" => "Muhamad Aldizar Ilham"
             ];
             return $record;
         });
 
-        $logger->info("Hello World", ["username"=>"eko"]);
+        $logger->info("Hello World", ["username"=>"Aldizar"]);
         $logger->info("Hello World");
         $logger->info("Hello World Lagi");
 

@@ -1,11 +1,11 @@
 {
-    "name": "programmer-zaman-now/belajar-php-mvc",
+    "name": "muhamadaldizarilham/belajar-php-mvc",
     "description": "Belajar PHP MVC",
     "type": "project",
     "authors": [
         {
-            "name": "Eko Kurniawan Khannedy",
-            "email": "echo.khannedy@gmail.com"
+            "name": "lucian666",
+            "email": "ilhamaldizar@gmail.com"
         }
     ],
     "require": {
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ProgrammerZamanNow\\Belajar\\PHP\\MVC\\" : "app"
+            "MuhamadAldizarIlham\\Belajar\\PHP\\MVC\\" : "app"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ProgrammerZamanNow\\Belajar\\PHP\\MVC\\" : "test"
+            "MuhamadAldizarIlham\\Belajar\\PHP\\MVC\\" : "test"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC;
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
@@ -16,7 +16,7 @@ class LoggingTest extends TestCase
         $logger->pushHandler(new StreamHandler(__DIR__ . "/../application.log"));
 
         $logger->info("Belajar Pemrograman PHP Logging");
-        $logger->info("Selamat Datang di Programmer Zaman Now");
+        $logger->info("Selamat Datang di Muhamad Aldizar Ilham");
         $logger->info("Ini Informasi Aplikasi Logging");
 
         self::assertNotNull($logger);

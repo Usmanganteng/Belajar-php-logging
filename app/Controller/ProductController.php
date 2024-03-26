@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC\Controller;
 
 class ProductController
 {

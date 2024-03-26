@@ -1,8 +1,8 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller;
+namespace MuhamadAldizarIlham\Belajar\PHP\MVC\Controller;
 
-use ProgrammerZamanNow\Belajar\PHP\MVC\App\View;
+use MuhamadAldizarIlham\Belajar\PHP\MVC\App\View;
 
 class HomeController
 {
@@ -11,7 +11,7 @@ class HomeController
     {
         $model = [
             "title" => "Belajar PHP MVC",
-            "content" => "Selamat Belajar PHP MVC dari Programmer Zaman Now"
+            "content" => "Selamat Belajar PHP MVC dari Muhamad Aldizar Ilham"
         ];
 
         View::render('Home/index', $model);
@@ -29,7 +29,7 @@ class HomeController
 
     function about(): void
     {
-        echo "Author : Eko Kurniawan Khannedy";
+        echo "Author : Muhamad Aldizar Ilham";
     }
 
     function login(): void
